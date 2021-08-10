@@ -34,6 +34,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 KDE Telepathy file manager plugin to send files to contacts.
 
+%description -l pl.UTF-8
+Wtyczka menadżera plików KDE Telepathy do wysyłania plików
+do kontaktów.
+
 %prep
 %setup -q -n %{kaname}-%{version}
 
